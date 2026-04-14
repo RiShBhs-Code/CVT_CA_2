@@ -6,7 +6,7 @@ class SimpleHandler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header("Content-type", "text/plain; charset=utf-8")
         self.end_headers()
-        self.wfile.write(b"Hello World , Currently Performing CVT_Ca_2")
+        self.wfile.write(b"Hello Priyanka , Currently Performing CVT_Ca_2")
 
 
 def run_server(host: str = "0.0.0.0", port: int = 8000) -> None:
